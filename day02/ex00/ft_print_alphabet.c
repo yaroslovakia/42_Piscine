@@ -7,7 +7,11 @@ int ft_putchar(char c)
 }
 
 int main() {
-	ft_putchar('h');
-	ft_putchar('u');
-	ft_putchar('i');
+	char hui[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
+	int i = 0;
+	while (hui[i]) {
+        ft_putchar(hui[i]);
+        i++;
+	}
+	ft_putchar('\n');
 }
